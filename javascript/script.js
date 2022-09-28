@@ -6,3 +6,11 @@
  * For esbuild documentation, please see:
  * https://esbuild.github.io/
  */
+
+
+/*------------------------------------------------------------------------------*/
+/* Slick_slider
+/*------------------------------------------------------------------------------*/
+jQuery(document).ready(function ($) {
+    $(".slick_slider").slick();
+});

@@ -115,13 +115,23 @@ add_action( 'widgets_init', 'coding_and_marking_widgets_init' );
  */
 function coding_and_marking_scripts() {
 	wp_enqueue_style( 'coding-and-marking-style', get_stylesheet_uri(), array(), CODING_AND_MARKING_VERSION );
+	wp_enqueue_style( 'slick', get_template_directory_uri() . '/css/slick.css', array(), false, 'all' );
+	wp_enqueue_style( 'slick-theme', get_template_directory_uri() . '/css/slick-theme.css', array(), false, 'all' );
 	wp_enqueue_script( 'coding-and-marking-script', get_template_directory_uri() . '/js/script.min.js', array(), CODING_AND_MARKING_VERSION, true );
+	wp_enqueue_script( 'slick', get_template_directory_uri() . '/js/slick.min.js', array(), true, 'all' );
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
 	}
 }
 add_action( 'wp_enqueue_scripts', 'coding_and_marking_scripts' );
+
+function load_scripts(){
+    //Load scripts:
+    wp_enqueue_script('jquery'); # Loading the WordPress bundled jQuery version.
+    //may add more scripts to load like jquery-ui
+}
+add_action('wp_enqueue_scripts', 'load_scripts');
 
 /**
  * Add the block editor class to TinyMCE.
