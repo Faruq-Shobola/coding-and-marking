@@ -179,6 +179,88 @@ get_header();
   </div>
 </div>
 <!-- // SECTION 3 END -->
+<!-- // SECTION 4 -->
+<section class="bg-white">
+  <div class="max-w-screen-xl px-4 py-12 mx-auto md:py-16 sm:px-6 lg:px-8">
+    <div class="max-w-3xl mx-auto text-center">
+      <h2 class="text-3xl font-bold text-gray-900 sm:text-4xl">
+        Trusted by eCommerce Businesses
+      </h2>
 
+      <p class="mt-4 text-gray-500 sm:text-xl">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione dolores
+        laborum labore provident impedit esse recusandae facere libero harum
+        sequi.
+      </p>
+    </div>
+
+    <div class="mt-8 sm:mt-12">
+      <dl class="grid grid-cols-1 gap-8 sm:grid-cols-3">
+        <div class="flex flex-col px-4 py-8 items-center border border-gray-100">
+        <div class="flex items-center justify-center">
+            <svg class="w-16 h-16 text-red-400 lg:w-18 lg:h-18" stroke="currentColor" viewBox="0 0 52 52">
+                <polygon stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none" points="29 13 14 29 25 29 23 39 38 23 27 23"></polygon>
+            </svg>
+        </div>
+          <dt class="order-last text-lg font-medium text-gray-500">
+            Total Sales
+          </dt>
+          <dd class="text-4xl font-extrabold text-blue-600 md:text-5xl">
+            $4.8m
+          </dd>
+        </div>
+
+        <div class="flex flex-col px-4 py-8 items-center border border-gray-100">
+        <div class="flex items-center justify-center">
+            <svg class="w-16 h-16 text-red-400 lg:w-18 lg:h-18" stroke="currentColor" viewBox="0 0 52 52">
+                <polygon stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none" points="29 13 14 29 25 29 23 39 38 23 27 23"></polygon>
+            </svg>
+        </div>
+          <dt class="order-last text-lg font-medium text-gray-500">
+            Official Addons
+          </dt>
+          <dd class="text-4xl font-extrabold text-blue-600 md:text-5xl">24</dd>
+        </div>
+
+        <div class="flex flex-col px-4 py-8 items-center border border-gray-100">
+        <div class="flex items-center justify-center">
+            <svg class="w-16 h-16 text-red-400 lg:w-18 lg:h-18" stroke="currentColor" viewBox="0 0 52 52">
+                <polygon stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none" points="29 13 14 29 25 29 23 39 38 23 27 23"></polygon>
+            </svg>
+        </div>
+          <dt class="order-last text-lg font-medium text-gray-500">
+            Total Addons
+          </dt>
+          <dd class="text-4xl font-extrabold text-blue-600 md:text-5xl">86</dd>
+        </div>
+
+        <div class="flex flex-col px-4 py-8 items-center border border-gray-100">
+        <div class="flex items-center justify-center">
+            <svg class="w-16 h-16 text-red-400 lg:w-18 lg:h-18" stroke="currentColor" viewBox="0 0 52 52">
+                <polygon stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none" points="29 13 14 29 25 29 23 39 38 23 27 23"></polygon>
+            </svg>
+        </div>
+          <dt class="order-last text-lg font-medium text-gray-500">
+            Official Addons
+          </dt>
+          <dd class="text-4xl font-extrabold text-blue-600 md:text-5xl">24</dd>
+        </div>
+
+        <div class="flex flex-col px-4 py-8 items-center border border-gray-100">
+        <div class="flex items-center justify-center">
+            <svg class="w-16 h-16 text-red-400 lg:w-18 lg:h-18" stroke="currentColor" viewBox="0 0 52 52">
+                <polygon stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none" points="29 13 14 29 25 29 23 39 38 23 27 23"></polygon>
+            </svg>
+        </div>
+          <dt class="order-last text-lg font-medium text-gray-500">
+            Total Addons
+          </dt>
+          <dd class="text-4xl font-extrabold text-blue-600 md:text-5xl">86</dd>
+        </div>
+      </dl>
+    </div>
+  </div>
+</section>
+<!-- // SECTION 4 END -->
 <?php
 get_footer(); ?>
