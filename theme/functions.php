@@ -114,6 +114,7 @@ add_action( 'widgets_init', 'coding_and_marking_widgets_init' );
  * Enqueue scripts and styles.
  */
 function coding_and_marking_scripts() {
+	wp_enqueue_style( 'style', get_template_directory_uri() . '/css/style.css', array(), false, 'all');
 	wp_enqueue_style( 'coding-and-marking-style', get_stylesheet_uri(), array(), CODING_AND_MARKING_VERSION );
 	wp_enqueue_script( 'coding-and-marking-script', get_template_directory_uri() . '/js/script.min.js', array(), CODING_AND_MARKING_VERSION, true );
 
@@ -136,6 +137,21 @@ function coding_and_marking_tinymce_add_class( $settings ) {
 	return $settings;
 }
 add_filter( 'tiny_mce_before_init', 'coding_and_marking_tinymce_add_class' );
+
+/**
+	 * Add support for core custom logo.
+	 *
+	 * @link https://codex.wordpress.org/Theme_Logo
+	 */
+	add_theme_support(
+		'custom-logo',
+		array(
+			'height'      => 100,
+			'width'       => 400,
+			'flex-width'  => true,
+			'flex-height' => true,
+		)
+	);
 
 /**
  * Custom template tags for this theme.

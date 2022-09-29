@@ -9,39 +9,63 @@
 
 ?>
 
-<header id="masthead">
+<header id="masthead" class="cont relative flex flex-col lg:flex-row items-center w-full">
 
-	<div>
+	<!-- <div>
 		<?php
-		if ( is_front_page() ) :
+		//if ( is_front_page() ) :
 			?>
-			<h1><?php bloginfo( 'name' ); ?></h1>
+			<h1><?php //bloginfo( 'name' ); ?></h1>
 			<?php
-		else :
+		//else :
 			?>
-			<p><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
+			<p><a href="<?php //echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php //bloginfo( 'name' ); ?></a></p>
 			<?php
-		endif;
+		// endif;
 
-		$coding_and_marking_description = get_bloginfo( 'description', 'display' );
-		if ( $coding_and_marking_description || is_customize_preview() ) :
+		// $coding_and_marking_description = get_bloginfo( 'description', 'display' );
+		// if ( $coding_and_marking_description || is_customize_preview() ) :
 			?>
-			<p><?php echo $coding_and_marking_description; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></p>
-		<?php endif; ?>
+			<p><?php //echo $coding_and_marking_description; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></p>
+		<?php //endif; ?>
+	</div> -->
+	<div class="w-full lg:w-2/12 h-16 lg:h-20 flex items-center justify-between">
+		<div class="logo">
+			<a href="<?php $uploads = wp_upload_dir();?>">
+				<?php 
+				if ( function_exists( 'the_custom_logo' ) ) {
+					the_custom_logo();
+				}
+				?>
+			</a>
+		</div>
+		
+		<div class="flex lg:hidden" onclick="toggleNav()">
+			<span class="flex justify-center items-center h-10 w-10 rounded-full ">
+				<i id="hamburger" class="fas fa-bars text-white text-2xl "></i>
+			</span>
+		</div>
 	</div>
 
-	<nav id="site-navigation" aria-label="<?php esc_attr_e( 'Main Navigation', 'coding-and-marking' ); ?>">
-		<button aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'coding-and-marking' ); ?></button>
+	<nav id="site-navigation" aria-label="<?php esc_attr_e( 'Main Navigation', 'coding-and-marking' ); ?>" class="flex flex-col justify-center lg:flex lg:flex-row lg:justify-end lg:items-center w-full lg:w-8/12">
+		<!-- <button aria-controls="primary-menu" aria-expanded="false"><?php //esc_html_e( 'Primary Menu', 'coding-and-marking' ); ?></button> -->
 
 		<?php
 		wp_nav_menu(
 			array(
 				'theme_location' => 'menu-1',
 				'menu_id'        => 'primary-menu',
-				'items_wrap'     => '<ul id="%1$s" class="%2$s" aria-label="submenu">%3$s</ul>',
-			)
+				'menu_class'        => "menu main-menu flex flex-col lg:flex lg:flex-row py-5 lg:py-0 lg:items-center lg:gap-7  lg:max-w-lg lg:max-w-full", // (string) CSS class to use for the ul element which forms the menu. Default 'menu'.
+				// 'items_wrap'     => '<ul id="%1$s" class="%2$s" aria-label="submenu">%3$s</ul>',
+				'depth'             => "2", // (int) How many levels of the hierarchy are to be included. 0 means all. Default 0.
+				'after'				=> "<i class='fas fa-angle-down down-arrow hidden'></i>", // (string) Text after the link markup.
+				'item_spacing'      => "discard", // (string) Whether to preserve whitespace within the menu's HTML. Accepts 'preserve' or 'discard'. Default 'preserve'.
+			)	
 		);
 		?>
 	</nav><!-- #site-navigation -->
+	<div class="w-full lg:w-2/12 flex items-center lg:justify-end">
+			<button class="block lg:inline-flex w-full lg:w-auto button">Get Quote</button>	
+	</div>
 
 </header><!-- #masthead -->

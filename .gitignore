@@ -2,6 +2,6 @@
 /vendor
 .DS_Store
 script.min.js
-style.css
+*/style.css
 style-editor.css
 coding-and-marking.zip
