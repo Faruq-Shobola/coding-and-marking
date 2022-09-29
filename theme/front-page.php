@@ -92,5 +92,50 @@ get_header();
 </div>
 <!-- Slider Stop -->
 
+<!-- // SECTION 3 -->
+<section class="">
+    <div class="cont flex flex-col justify-between py-8 xl:grid grid-cols-2 gap-4 md:px-8 md:py-16">
+        <div class="flex flex-col justify-center lg:ml-7 gap-y-7">
+            <div class="">
+                <h2 class="mb-6 text-4xl md:text-5xl capitalize font-bold font-head tracking-tight text-red-400 sm:leading-none">
+                    Manage Everything in Your Hand
+                </h2>
+                <p class="text-base text-gray md:text-base font-light font-body">
+                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+                </p>
+            </div>
+            <div class="flex flex-col items-center">
+                <div class="relative flex flex-row h-full my-2 lg:items-center">
+                    <div class="mb-6 mr-6 lg:mb-0">
+                        <div class="flex items-center justify-center w-20 h-20 rounded-full bg-red-400 lg:w-24 lg:h-24">
+                        <svg class="w-16 h-16 text-white lg:w-18 lg:h-18" stroke="currentColor" viewBox="0 0 52 52">
+                            <polygon stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none" points="29 13 14 29 25 29 23 39 38 23 27 23"></polygon>
+                        </svg>
+                        </div>
+                    </div>
+                    <div class="flex flex-col justify-between flex-grow">
+                        <div class="w-5/6 flex flex-col">
+                        <h6 class="mb-2 font-semibold leading-5 font-head text-purple">
+                            User Friendly
+                        </h6>
+                        <p class="text-sm md:text-base text-gray font-light font-body">
+                            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
+                        </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="flex items-center">
+                <a href="/" class="button bg-gradient-to-r from-red-500 to-red-400 hover:bg-gradient-to-l focus:shadow-outline focus:outline-none">
+                    Get started
+                </a>
+            </div>
+        </div>
+        <div class="slide-right">
+            <img src="http://test.zenithprecision.com.ng/Images/Zenith_logo+.png" class="object-cover object-top w-full h-auto mx-auto xl:mr-24 md:max-w-xl" alt="" />
+        </div>
+    </div>
+</section>
+<!-- // SECTION 3 END -->
 <?php
 get_footer(); ?>
