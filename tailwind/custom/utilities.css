@@ -6,3 +6,6 @@
  *
  * https://tailwindcss.com/docs/plugins#adding-utilities
  */
+ .cont {
+    @apply max-w-screen-xl mx-auto px-4;
+}

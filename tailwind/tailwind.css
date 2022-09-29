@@ -35,3 +35,12 @@
  */
 @import "tailwindcss/utilities";
 @import "./custom/utilities.css";
+
+
+.cont {
+    @apply max-w-screen-xl mx-auto px-4;
+}
+
+.button {
+    @apply inline-flex items-center justify-center py-2.5 px-7 text-base uppercase tracking-wider text-white transition duration-200 shadow-md bg-red-800;
+}
