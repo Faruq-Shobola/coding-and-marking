@@ -92,7 +92,7 @@ get_header();
 </div>
 <!-- Slider Stop -->
 
-<!-- // SECTION 3 -->
+<!-- // SECTION 2 -->
 <section class="">
     <div class="cont flex flex-col justify-between py-8 xl:grid grid-cols-2 gap-4 md:px-8 md:py-16">
         <div class="flex flex-col justify-center lg:ml-7 gap-y-7">
@@ -136,6 +136,49 @@ get_header();
         </div>
     </div>
 </section>
+<!-- // SECTION 2 END -->
+<!-- // SECTION 3 -->
+<div class="cont py-16 md:px-24 lg:px-8 lg:py-20">
+  <div class="grid gap-8 grid-cols-7">
+    <div class="col-span-3">
+        <h2 class="mb-6 text-4xl md:text-5xl capitalize font-bold font-head tracking-tight text-red-400 sm:leading-none">
+            Manage Everything in Your Hand
+        </h2>
+        <p class="text-base text-gray md:text-base font-light font-body">
+            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+        </p>
+    </div>
+    <div class="col-span-2 flex flex-col items-center gap-y-4 py-6 border rounded-b transition duration-300 transform bg-white rounded shadow-sm hover:-translate-y-1 hover:shadow md:text-center">
+        <div class="flex items-center justify-center w-20 h-20 bg-red-400">
+            <svg class="w-16 h-16 text-white lg:w-18 lg:h-18" stroke="currentColor" viewBox="0 0 52 52">
+                <polygon stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none" points="29 13 14 29 25 29 23 39 38 23 27 23"></polygon>
+            </svg>
+        </div>
+        <div class="px-6">
+            <h5 class="mb-2 text-xl font-bold leading-none sm:text-2xl">Hire Us</h5>
+            <p class="mb-5 text-gray-700">
+            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque rem aperiam, eaque ipsa quae. Sed ut perspiciatis unde.
+            </p>
+            <a href="/" aria-label="" class="inline-flex items-center text-sm md:text-base font-semibold font-body transition-colors duration-200 text-purple hover:text-deep-purple-800">Learn more</a>
+        </div>
+    </div>
+    <div class="col-span-2 flex flex-col items-center gap-y-4 py-6 border rounded-b transition duration-300 transform bg-white rounded shadow-sm hover:-translate-y-1 hover:shadow md:text-center">
+        <div class="flex items-center justify-center w-20 h-20 bg-red-400">
+            <svg class="w-16 h-16 text-white lg:w-18 lg:h-18" stroke="currentColor" viewBox="0 0 52 52">
+                <polygon stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none" points="29 13 14 29 25 29 23 39 38 23 27 23"></polygon>
+            </svg>
+        </div>
+        <div class="px-6">
+            <h5 class="mb-2 text-xl font-bold leading-none sm:text-2xl">Hire Us</h5>
+            <p class="mb-5 text-gray-700">
+            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque rem aperiam, eaque ipsa quae. Sed ut perspiciatis unde.
+            </p>
+            <a href="/" aria-label="" class="inline-flex items-center text-sm md:text-base font-semibold font-body transition-colors duration-200 text-purple hover:text-deep-purple-800">Learn more</a>
+        </div>
+    </div>
+  </div>
+</div>
 <!-- // SECTION 3 END -->
+
 <?php
 get_footer(); ?>
