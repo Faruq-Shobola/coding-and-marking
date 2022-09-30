@@ -62,6 +62,38 @@ get_header();
         </div>
     </div>
 </section>
+<!--  -->
+<section class="">
+    <div class="max-w-wide mx-auto px-4">
+        <div class="grid md:grid-cols-2 gap-10">
+            <div class="flex flex-col gap-y-10">
+                <div class="flex flex-col justify-center bg-gray-500 flex-grow p-8">
+                    <h3 class="text-lg uppercase font-medium text-white">our vision</h3>
+                    <div class="h-0.5 w-20 my-4 bg-red-600"></div>
+                    <p class="text-base font-medium text-white">To be the prefered coding and marking solution provider delivering excellent customer experience</p>
+                </div>
+                <div class="flex flex-col justify-center bg-slate-500 flex-grow p-8">
+                    <h3 class="text-lg uppercase font-medium text-white">our mission</h3>
+                    <div class="h-0.5 w-20 my-4 bg-red-600"></div>
+                    <p class="text-base font-medium text-white">To provide world class coding and marking solution leveraging technology and people to meet customers and stakeholders' expectations</p>
+                </div>
+               
+            </div>
+            <div class="p-8 flex flex-col">
+                <h3 class="text-lg uppercase font-medium">our core values</h3>
+                <div class="h-0.5 w-20 my-4 bg-red-600"></div>
+                <p class="text-base pb-2"><span class="capitalize font-medium pr-2">creativity:</span>We help our realistic ideas that align with customer' and stakeholders' target</p>
+                <p class="text-base py-2"><span class="capitalize font-medium pr-2">promptness:</span>Our products and services are rendered with the topmost precision and are time efficient</p>
+                <p class="text-base py-2"><span class="capitalize font-medium pr-2">synergy:</span>Our passion is to work hand in hand with you to deliver desirable customer satisfaction</p>
+                <p class="text-base py-2"><span class="capitalize font-medium pr-2">integrity:</span>We deliver products that are tested and built for specific purposes to meet our customer's needs</p>
+                <p class="text-base py-2"><span class="capitalize font-medium pr-2">customers' delight:</span>Quality product with longevity is what we are dedicated to. We offer you the satisfaction that is beyond your expectations.</p>
+                <p class="text-base pt-2">We provide value that ensures you reach your customers them referals with their relative testimonies</p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
 
 <?php
 get_footer(); ?>
