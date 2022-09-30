@@ -65,8 +65,8 @@ get_header();
 <!--  -->
 <section class="">
     <div class="max-w-wide mx-auto px-4">
-        <div class="grid md:grid-cols-2 gap-10">
-            <div class="flex flex-col gap-y-10">
+        <div class="grid md:grid-cols-2 gap-5">
+            <div class="grid sm:grid-cols-2 md:flex md:flex-col gap-10">
                 <div class="flex flex-col justify-center bg-gray-500 flex-grow p-8">
                     <h3 class="text-lg uppercase font-medium text-white">our vision</h3>
                     <div class="h-0.5 w-20 my-4 bg-red-600"></div>
