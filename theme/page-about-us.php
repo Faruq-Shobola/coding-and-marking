@@ -1,6 +1,6 @@
 <?php
 /**
- * The template for displaying Home pages
+ * The template for displaying About pages
  *
  * @link https://codex.wordpress.org/Creating_an_Error_404_Page
  *
