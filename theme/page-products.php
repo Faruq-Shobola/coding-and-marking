@@ -17,7 +17,7 @@ get_header();
         <div class="flex flex-col items-center justify-between">
             <div class="relative w-full mb-12 xl:mb-0 xl:pr-16 xl:w-7/12 bg-black bg-opacity-40 p-16 text-center">
                 <h2 class="font-sans text-3xl font-bold tracking-tight text-white sm:text-4xl sm:leading-none capitalize">
-               who we are
+               our product
                 </h2>
                 <div class="w-32 h-1 bg-red-600 mx-auto my-6 "></div>
                 <p class="mb-4 text-base text-gray-400 md:text-lg">
@@ -62,5 +62,120 @@ get_header();
     </div>
 </section>
 <!--  -->
+<section class="py-10">
+    <div class="cont grid md:flex flex-col py-8 gap-14 md:px-8 md:py-16">
+        <!------------ Products ------------>
+        
+        <div class="flex flex-col md:grid md:grid-cols-9 gap-8">
+            <!------------ IMAGE ------------>
+            <div class="col-span-3 overflow-hidden h-64">
+                    <img
+                        src="https://cdn.pixabay.com/photo/2022/08/01/12/36/city-7358078_960_720.jpg"
+                        class="h-full w-full object-cover"
+                        alt=""
+                    >
+            </div>
+            <!------------ CONTENT ------------>
+            <div class="col-span-6 px-2 flex flex-col gap-2">
+                <div class="flex flex-col justify-center flex-grow p-8">
+                    <h3 class="text-lg uppercase font-medium">our vision</h3>
+                    <div class="h-0.5 w-20 my-4 bg-red-600"></div>
+                    <div class="pl-3">
+                        <p class="text-base pb-3">To be the prefered coding and marking solution provider delivering excellent customer experience Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat a consequuntur expedita earum ad sunt, culpa voluptatibus explicabo fuga accusantium.</p>
+                        <p class="text-base">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo incidunt deserunt, nostrum similique quia ducimus.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--  -->
+        <div class="flex flex-col md:grid md:grid-cols-9 gap-8">
+            <!------------ IMAGE ------------>
+            <div class="col-span-3 overflow-hidden h-64">
+                <img
+                    src="https://cdn.pixabay.com/photo/2022/08/01/12/36/city-7358078_960_720.jpg"
+                    class="h-full w-full object-cover"
+                    alt=""
+                >
+            </div>
+            <!------------ CONTENT ------------>
+            <div class="col-span-6 px-2 flex flex-col gap-2">
+                <div class="flex flex-col justify-center flex-grow p-8">
+                    <h3 class="text-lg uppercase font-medium">our vision</h3>
+                    <div class="h-0.5 w-20 my-4 bg-red-600"></div>
+                    <div class="pl-3">
+                        <p class="text-base pb-3">To be the prefered coding and marking solution provider delivering excellent customer experience Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat a consequuntur expedita earum ad sunt, culpa voluptatibus explicabo fuga accusantium.</p>
+                        <p class="text-base">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo incidunt deserunt, nostrum similique quia ducimus.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--  -->
+        <div class="flex flex-col md:grid md:grid-cols-9 gap-8">
+            <!------------ IMAGE ------------>
+            <div class="col-span-3 overflow-hidden h-64">
+                    <img
+                        src="https://cdn.pixabay.com/photo/2022/08/01/12/36/city-7358078_960_720.jpg"
+                        class="h-full w-full object-cover"
+                        alt=""
+                    >
+            </div>
+            <!------------ CONTENT ------------>
+            <div class="col-span-6 px-2 flex flex-col gap-2">
+                <div class="flex flex-col justify-center flex-grow p-8">
+                    <h3 class="text-lg uppercase font-medium">our vision</h3>
+                    <div class="h-0.5 w-20 my-4 bg-red-600"></div>
+                    <div class="pl-3">
+                        <p class="text-base pb-3">To be the prefered coding and marking solution provider delivering excellent customer experience Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat a consequuntur expedita earum ad sunt, culpa voluptatibus explicabo fuga accusantium.</p>
+                        <p class="text-base">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo incidunt deserunt, nostrum similique quia ducimus.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--  -->
+        <div class="flex flex-col md:grid md:grid-cols-9 gap-8">
+            <!------------ IMAGE ------------>
+            <div class="col-span-3 overflow-hidden h-64">
+                    <img
+                        src="https://cdn.pixabay.com/photo/2022/08/01/12/36/city-7358078_960_720.jpg"
+                        class="h-full w-full object-cover"
+                        alt=""
+                    >
+            </div>
+            <!------------ CONTENT ------------>
+            <div class="col-span-6 px-2 flex flex-col gap-2">
+                <div class="flex flex-col justify-center flex-grow p-8">
+                    <h3 class="text-lg uppercase font-medium">our vision</h3>
+                    <div class="h-0.5 w-20 my-4 bg-red-600"></div>
+                    <div class="pl-3">
+                        <p class="text-base pb-3">To be the prefered coding and marking solution provider delivering excellent customer experience Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat a consequuntur expedita earum ad sunt, culpa voluptatibus explicabo fuga accusantium.</p>
+                        <p class="text-base">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo incidunt deserunt, nostrum similique quia ducimus.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--  -->
+        <div class="flex flex-col md:grid md:grid-cols-9 gap-8">
+            <!------------ IMAGE ------------>
+            <div class="col-span-3 overflow-hidden h-64">
+                    <img
+                        src="https://cdn.pixabay.com/photo/2022/08/01/12/36/city-7358078_960_720.jpg"
+                        class="h-full w-full object-cover"
+                        alt=""
+                    >
+            </div>
+            <!------------ CONTENT ------------>
+            <div class="col-span-6 px-2 flex flex-col gap-2">
+                <div class="flex flex-col justify-center flex-grow p-8">
+                    <h3 class="text-lg uppercase font-medium">our vision</h3>
+                    <div class="h-0.5 w-20 my-4 bg-red-600"></div>
+                    <div class="pl-3">
+                        <p class="text-base pb-3">To be the prefered coding and marking solution provider delivering excellent customer experience Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat a consequuntur expedita earum ad sunt, culpa voluptatibus explicabo fuga accusantium.</p>
+                        <p class="text-base">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo incidunt deserunt, nostrum similique quia ducimus.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>   
+</section>
 <?php
 get_footer(); ?>
