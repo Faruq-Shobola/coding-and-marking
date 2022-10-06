@@ -13,4 +13,5 @@
 /*------------------------------------------------------------------------------*/
 jQuery(document).ready(function ($) {
     $(".slick_slider").slick();
+    $(".partner_slider").slick();
 });

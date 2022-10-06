@@ -57,8 +57,8 @@ get_header();
                 </p>
             </div>
         </div>
-        <div class="slide-right flex justify-center items-center border border-1">
-            <img src="http://test.zenithprecision.com.ng/Images/Zenith_logo+.png" class="w-auto h-80" alt="" />
+        <div class="slide-right flex justify-center items-center border border-1 p-5">
+            <img src="http://test.zenithprecision.com.ng/Images/Zenith_logo+.png" class="w-auto h-80 object-scale-down" alt="" />
         </div>
     </div>
 </section>
@@ -95,6 +95,8 @@ get_header();
 </section>
 <!--  -->
     <?php get_template_part( 'template-parts/content/content', 'client' ); ?>
+<!--  -->
+    <?php get_template_part( 'template-parts/content/content', 'partner' ); ?>
 <!--  -->
     <?php get_template_part( 'template-parts/content/content', 'cta' ); ?>
 <!--  -->

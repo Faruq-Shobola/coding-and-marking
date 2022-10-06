@@ -239,3 +239,55 @@ div.wpcf7 p label {
 .wpcf7 form.sent .wpcf7-response-output {
     color: #46b450;
 }
+
+/* SLIDER */
+.partner_slider .slick-prev:before, .partner_slider .slick-next:before {
+    padding: 3px 5px;
+    display: inline-block;
+    border: 1px solid #833638;
+    font-size: 30px;
+    line-height: 1;
+    opacity: 1;
+    color: #833638;
+}
+.partner_slider .slick-next {
+    right: -25px;
+}
+.partner_slider .slick-prev {
+    left: -45px;
+}
+
+/* .partner_slider button{
+    margin: 0;
+    padding: 0;
+    background: none;
+    border: none;
+    border-radius: 0;
+    outline: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+.partner_slider .slide-arrow{
+    position: absolute;
+    top: 50%;
+    margin-top: -15px;
+}
+.partner_slider .prev-arrow{
+    left: -40px;
+    width: 0;
+    height: 0;
+    border-left: 0 solid transparent;
+    border-right: 15px solid #113463;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+  }
+.partner_slider .next-arrow{
+    right: -40px;
+    width: 0;
+    height: 0;
+    border-right: 0 solid transparent;
+    border-left: 15px solid #113463;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+  } */

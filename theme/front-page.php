@@ -97,7 +97,7 @@ get_header();
     <div class="cont flex flex-col justify-between py-16 md:grid grid-cols-2 gap-8">
         <div class="flex flex-col justify-center gap-y-7">
             <div class="">
-                <h2 class="mb-6 text-4xl md:text-5xl capitalize font-bold font-head tracking-tight" style="line-height: 55px">
+                <h2 class="mb-6 text-4xl md:text-5xl capitalize font-bold font-head tracking-tight leading-[45px] md:leading-[55px]">
                     Manage Everything in Your Hand
                 </h2>
                 <p class="text-base text-gray md:text-lg font-body">
@@ -113,8 +113,8 @@ get_header();
                 </a>
             </div>
         </div>
-        <div class="slide-right flex justify-center items-center border border-1">
-            <img class="w-auto h-80" src="http://test.zenithprecision.com.ng/Images/Zenith_logo+.png" alt="">
+        <div class="slide-right flex justify-center items-center border border-1 p-5">
+            <img class="w-auto h-80 object-scale-down" src="http://test.zenithprecision.com.ng/Images/Zenith_logo+.png" alt="">
         </div>
     </div>
 </section>
@@ -124,7 +124,7 @@ get_header();
     <div class="cont py-16 text-white">
       <div class="grid gap-8 grid-cols-6 lg:grid-cols-7">
         <div class="col-span-6 lg:col-span-3 flex flex-col justify-center">
-            <h2 class="mb-6 text-4xl md:text-5xl capitalize font-bold font-head tracking-tight" style="line-height: 55px">
+            <h2 class="mb-6 text-4xl md:text-5xl capitalize font-bold font-head tracking-tight leading-[45px] md:leading-[55px]">
                 Manage Everything in Your Hand
             </h2>
             <p class="text-base text-gray md:text-lg font-body">

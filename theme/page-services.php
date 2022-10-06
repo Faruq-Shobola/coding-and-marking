@@ -40,8 +40,8 @@ get_header();
     <!-- Service One -->
     <div class="cont py-14">
         <div class="flex flex-col overflow-hidden shadow-sm lg:flex-row sm:mx-auto">
-            <div class="relative lg:w-1/2">
-                <img src="https://images.pexels.com/photos/3182812/pexels-photo-3182812.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260" alt="" class="object-cover w-full lg:absolute h-80 lg:h-full" />
+            <div class="relative lg:w-1/2 bg-[#f5f5f5]">
+                <img src="https://leibinger-group.com/application/files/9616/0248/4059/cij-jet3up-detail1-freigestellt.png" alt="" class="object-cover w-full lg:absolute h-80 lg:h-full" />
             </div>
             <div class="flex flex-col justify-center p-8 bg-whine text-white lg:p-16 lg:pl-10 lg:w-1/2">
                 <h5 class="mb-3 text-3xl font-extrabold leading-none sm:text-4xl">
@@ -97,6 +97,8 @@ get_header();
 <!--  -->
 <!--  -->
     <?php get_template_part( 'template-parts/content/content', 'client' ); ?>
+<!--  -->
+    <?php get_template_part( 'template-parts/content/content', 'partner' ); ?>
 <!--  -->
     <?php get_template_part( 'template-parts/content/content', 'cta' ); ?>
 <!--  -->
