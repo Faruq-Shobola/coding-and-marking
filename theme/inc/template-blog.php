@@ -1,6 +1,6 @@
  <!-------------- BLOG -------------->
  <?php if( have_posts() ): while( have_posts() ): the_post();?>
-    <div class="w-full bg-white rounded-lg shadow-md overflow-hidden">
+    <div class="w-full bg-white shadow-md overflow-hidden">
         <?php if(has_post_thumbnail()):?>
         <img
             class="object-cover w-full h-56"
