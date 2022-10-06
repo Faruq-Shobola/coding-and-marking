@@ -35,6 +35,29 @@ get_header();
     </div>
 </div>
 <!--  -->
-
+<section class="blog py-32 px-4">
+            <div class="cont flex flex-col items-center justify-center gap-16">
+                <!-------------- HEADING -------------->
+                <!-- <div class="flex flex-col items-center justify-center gap-8 heading text-center">
+                    <h2 class="text-4xl font-bold ">Latest Coding tips from blog</h2>
+                    <span class="line border-t-4 border-solid border-wine w-32"></span>
+                </div> -->
+                <!-------------- BLOGS -------------->
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-6 sm:gap-y-12 w-full">
+                   
+                    <?php 
+                    /**
+                     * Get blogs from template-blog
+                     */
+                    require get_template_directory() . '/inc/template-blog.php'; 
+                    ?>
+                </div>
+                <!-------------- BUTTON -------------->
+                <div class="btn">
+                    <?php the_posts_pagination(); ?>
+                </div>
+            </div>
+        </section>
+        <!---------
 <!-- GET FOOTER CONTENT -->
 <?php get_footer();?>
