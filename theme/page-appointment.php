@@ -34,6 +34,25 @@ get_header();
         </div>
     </div>
 </div>
+<section class="">
+    <!---------------------------------  
+        APPOINTMENT SECTION START
+    --------------------------------->
+    <section class="cont text-gray-600 body-font relative">
+        <div class="container py-24 mx-auto flex flex-col lg:grid grid-cols-2 gap-8">
+            <div class="bg-white flex flex-col items-center  px-8">
+                <div class="max-w-4xl">
+                    <p class="leading-relaxed mb-1 text-gray-600">Give Us A Brief Description Of Your Request In The Provided Column Below</p>
+                    <h2 class="text-gray-900 mb-5 text-4xl  font-bold title-font">Appointment Details</h2>
+                    <?php the_content();?>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!---------------------------------  
+        APPOINTMENT SECTION END
+    --------------------------------->
+</section>
 
 <?php
 get_footer(); ?>
