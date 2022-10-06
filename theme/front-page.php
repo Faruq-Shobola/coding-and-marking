@@ -16,7 +16,9 @@ get_header();
 <div class="slick_slider" data-slick='{"slidesToShow": 1, "slidesToScroll": 1, "arrows":false, "autoplay":true, "dots":true, "infinite":true, "speed":1000, "responsive":[{"breakpoint":992,"settings":{"slidesToShow": 1}},{"breakpoint":840,"settings":{"slidesToShow": 1}}]}'>
     <!-- slide 1 -->
     <div class="relative">
-        <video class="absolute inset-0 object-cover top w-full h-full" src="http://zenith-precision.test/wp-content/themes/coding-and-marking/theme/video/FANUC%20Industrial%20Robots%20at%20AUDI.mp4" autoplay loop muted></video>
+        <video class="absolute inset-0 object-cover top w-full h-full" autoplay loop muted> 
+           <source src="https://leibinger-group.com/application/themes/leibinger/video/201124_LEIBINGER_Sealtronic_WebsiteHeader_WhiteBoxes_Loop.mp4">
+        </video>
         <div class="relative bg-gray-900 bg-opacity-50">
             <div class="cont py-16 md:px-24 lg:px-8 lg:py-28">
                 <div class="flex flex-col items-start justify-between">
@@ -41,7 +43,9 @@ get_header();
     </div>
     <!-- slide 2 -->
     <div class="relative">
-        <video class="absolute inset-0 object-cover top w-full h-full" src="http://zenith-precision.test/wp-content/themes/coding-and-marking/theme/video/FANUC%20Industrial%20Robots%20at%20AUDI.mp4" autoplay loop muted></video>
+        <video class="absolute inset-0 object-cover top w-full h-full" autoplay loop muted>
+            <source src="http://zenith-precision.test/wp-content/themes/coding-and-marking/theme/video/FANUC%20Industrial%20Robots%20at%20AUDI.mp4">
+        </video>
         <div class="relative bg-gray-900 bg-opacity-50">
             <div class="cont py-16 md:px-24 lg:px-8 lg:py-28">
                 <div class="flex flex-col items-center justify-between">
@@ -66,7 +70,9 @@ get_header();
     </div>
     <!-- slide 3 -->
     <div class="relative">
-        <video class="absolute inset-0 object-cover top w-full h-full" src="http://zenith-precision.test/wp-content/themes/coding-and-marking/theme/video/FANUC%20Industrial%20Robots%20at%20AUDI.mp4" autoplay loop muted></video>
+        <video class="absolute inset-0 object-cover top w-full h-full" autoplay loop muted>
+            <source src="http://zenith-precision.test/wp-content/themes/coding-and-marking/theme/video/FANUC%20Industrial%20Robots%20at%20AUDI.mp4">
+        </video>
         <div class="relative bg-gray-900 bg-opacity-50">
             <div class="cont py-16 md:px-24 lg:px-8 lg:py-28">
                 <div class="flex flex-col items-end justify-between">
