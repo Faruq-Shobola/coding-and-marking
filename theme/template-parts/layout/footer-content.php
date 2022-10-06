@@ -22,13 +22,13 @@
 				zenith precision
 				</h3>
 			
-				<p class="mt-4 text-base text-gray md:text-lg">
+				<p class="mt-4 text-sm text-gray">
 					Zenith precision ltd offers integrated coding and marking solutions focusing the manufacturing industry.
 				</p>                    
 			</div>
             <!-------------- COLUMN 2 -------------->
 			<div class="md:col-span-2 lg:col-span-1 md:flex md:justify-center">
-				<ul class="text-base text-gray md:text-lg">
+				<ul class="text-sm text-gray">
 					<li class="capitalize pb-2"><a href="index.html">home</a></li>
 					<li class="capitalize pb-2"><a href="about.html">about us</a></li>
 					<li class="capitalize pb-2"><a href="services.html">services</a></li>
@@ -37,7 +37,7 @@
 			</div>
             <!-------------- COLUMN 3 -------------->
 			<div class="md:col-span-2 lg:col-span-1 md:flex md:justify-center">
-				<ul class="text-base text-gray md:text-lg">
+				<ul class="text-sm text-gray">
 					<li class="capitalize pb-2"><a href="blog.html">blog</a></li>
 					<li class="capitalize pb-2"><a href="about.html#faq">FAQs</a></li>
 					<li class="capitalize"><a href="appointment.html">book an appointment</a></li>
@@ -68,10 +68,10 @@
 				</div>
 				<!-------------- GET IN TOUCH-------------->
 				<div class="heading">
-					<p class="text-base text-gray md:text-lg">
+					<p class="text-sm text-gray">
 						Get in Touch
 					</p>
-					<a href="mailto:hi@zenithprecision.com.ng" class="text-base md:text-lg text-whine">
+					<a href="mailto:hi@zenithprecision.com.ng" class="text-sm text-whine">
 						hi@zenithprecision.com.ng
 					</a>
 				</div>
@@ -79,8 +79,7 @@
         </div>  
         <!-------------- COPYRIGHT - TERMS & CONDITION -------------->
         <div class="copyright justify-self-start flex flex-wrap sm:flex-nowrap gap-x-6">
-            <p class="capitalize text-base text-gray">copyright © 2021 zenith precision. all rights reserved.</p>
-            <a href="#" class="capitalize text-whine text-base cursor-pointer">Terms &amp; Condition</a>
+            <p class="capitalize text-sm text-gray">copyright © 2021 zenith precision. all rights reserved.</p>
         </div>
             
     </footer>
