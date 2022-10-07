@@ -15,7 +15,7 @@ get_header();
     <div class="relative bg-gray-900 bg-opacity-50">
         <div class="cont py-16 md:px-24 lg:px-8 lg:py-28">
         <div class="flex flex-col items-center justify-between">
-            <div class="relative w-full mb-12 xl:mb-0 xl:pr-16 xl:w-7/12 bg-black bg-opacity-40 p-16 text-center">
+            <div class="relative w-full lg:w-7/12 bg-black bg-opacity-40 p-6 md:p-10 lg:p-16 text-center">
                 <h2 class="font-sans text-3xl font-bold tracking-tight text-white sm:text-4xl sm:leading-none capitalize">
                our product
                 </h2>
@@ -36,8 +36,8 @@ get_header();
 </div>
 <!--  -->
 <section class="py-10">
-    <div class="cont flex flex-col justify-between py-8 xl:grid grid-cols-2 gap-4 md:px-8 md:py-16">
-        <div class="flex flex-col justify-center lg:ml-7 gap-y-7">
+    <div class="cont flex flex-col justify-between py-16 lg:grid grid-cols-2 gap-8">
+        <div class="flex flex-col justify-center gap-y-7">
             <div class="">
                 <!-- <h2 class="mb-6 text-4xl md:text-5xl capitalize font-bold font-head tracking-tight text-red-400 sm:leading-none">
                     Manage Everything in Your Hand
@@ -56,8 +56,8 @@ get_header();
                 </p>
             </div>
         </div>
-        <div class="slide-right">
-            <img src="http://test.zenithprecision.com.ng/Images/Zenith_logo+.png" class="object-cover object-top w-full h-auto mx-auto xl:mr-24 md:max-w-xl" alt="" />
+        <div class="slide-right flex justify-center items-center border border-1 p-5">
+            <img src="http://test.zenithprecision.com.ng/Images/Zenith_logo+.png" class="w-auto h-80 object-scale-down" alt="" />
         </div>
     </div>
 </section>
@@ -284,34 +284,7 @@ get_header();
     </div>
 </section>
 <!--  -->
-<section class="py-10">
-    <div class="cont py-16">
-        <div class="flex flex-col max-w-screen-lg overflow-hidden bg-white border shadow-sm lg:flex-row sm:mx-auto">
-            <div class="relative lg:w-1/2">
-                <img src="https://images.pexels.com/photos/3182812/pexels-photo-3182812.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260" alt="" class="object-cover w-full lg:absolute h-80 lg:h-full" />
-                <svg class="absolute top-0 right-0 hidden h-full text-white lg:inline-block" viewBox="0 0 20 104" fill="currentColor">
-                    <polygon points="17.3036738 5.68434189e-14 20 5.68434189e-14 20 104 0.824555778 104"></polygon>
-                </svg>
-            </div>
-            <div class="flex flex-col justify-center p-8 bg-white lg:p-16 lg:pl-10 lg:w-1/2">
-                <h5 class="mb-3 text-3xl font-extrabold leading-none sm:text-4xl">
-                    Your new ideal style
-                </h5>
-                <p class="mb-5 text-gray-800">
-                    <span class="font-bold">Lorem ipsum</span> dolor sit amet, consectetur adipiscing elit. Etiam sem neque, molestie sit amet venenatis et, dignissim ut erat. Sed aliquet velit id dui eleifend, sed consequat odio sollicitudin.
-                </p>
-                <div class="flex items-center">
-                    <a href="/" aria-label="" class="button">
-                    Learn more
-                    <svg class="inline-block w-3 ml-2" fill="currentColor" viewBox="0 0 12 12">
-                        <path d="M9.707,5.293l-5-5A1,1,0,0,0,3.293,1.707L7.586,6,3.293,10.293a1,1,0,1,0,1.414,1.414l5-5A1,1,0,0,0,9.707,5.293Z"></path>
-                    </svg>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+    <?php get_template_part( 'template-parts/content/content', 'cta' ); ?>
 <!--  -->
 <?php
 get_footer(); ?>

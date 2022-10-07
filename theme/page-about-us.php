@@ -16,7 +16,7 @@ get_header();
     <div class="relative bg-gray-900 bg-opacity-50">
         <div class="cont py-16 md:px-24 lg:px-8 lg:py-28">
         <div class="flex flex-col items-center justify-between">
-            <div class="relative w-full mb-12 xl:mb-0 xl:pr-16 xl:w-7/12 bg-black bg-opacity-40 p-16 text-center">
+            <div class="relative w-full lg:w-7/12 bg-black bg-opacity-40 p-6 md:p-10 lg:p-16 text-center">
                 <h2 class="font-sans text-3xl font-bold tracking-tight text-white sm:text-4xl sm:leading-none capitalize">
                who we are
                 </h2>
@@ -37,7 +37,7 @@ get_header();
 </div>
 <!--  -->
 <section class="py-10">
-    <div class="cont flex flex-col justify-between py-16 md:grid grid-cols-2 gap-8">
+    <div class="cont flex flex-col justify-between py-16 lg:grid grid-cols-2 gap-8">
         <div class="flex flex-col justify-center gap-y-7">
             <div class="">
                 <!-- <h2 class="mb-6 text-4xl md:text-5xl capitalize font-bold font-head tracking-tight text-red-400 sm:leading-none">
@@ -57,8 +57,8 @@ get_header();
                 </p>
             </div>
         </div>
-        <div class="slide-right flex justify-center items-center border border-1">
-            <img src="http://test.zenithprecision.com.ng/Images/Zenith_logo+.png" class="w-auto h-80" alt="" />
+        <div class="slide-right flex justify-center items-center border border-1 p-5">
+            <img src="http://test.zenithprecision.com.ng/Images/Zenith_logo+.png" class="w-auto h-80 object-scale-down" alt="" />
         </div>
     </div>
 </section>
@@ -95,6 +95,8 @@ get_header();
 </section>
 <!--  -->
     <?php get_template_part( 'template-parts/content/content', 'client' ); ?>
+<!--  -->
+    <?php get_template_part( 'template-parts/content/content', 'partner' ); ?>
 <!--  -->
     <?php get_template_part( 'template-parts/content/content', 'cta' ); ?>
 <!--  -->

@@ -137,6 +137,7 @@ nav li ul li a{
         transform-origin: 0 0 0;
         transition: all 0.3s ease 0s;
         visibility: hidden;
+        z-index: 1000;
     }
     nav li:hover ul{
         transform: scale(1);
@@ -254,4 +255,51 @@ div.wpcf7 p label {
 }
 .pagination .nav-links span.current {
 	background-color: #b7c932;
+}
+/* SLIDER */
+.slick-slider .slick-prev:before, .slick-slider .slick-next:before {
+    padding: 3px 5px;
+    display: inline-block;
+    border: 1px solid #833638;
+    font-size: 30px;
+    line-height: 1;
+    opacity: 1;
+    color: #833638;
+}
+.slick-slider .slick-next {
+    right: -25px;
+}
+.slick-slider .slick-prev {
+    left: -45px;
+}
+
+.slick-slider .slick-dots {
+    bottom: 20px;
+}
+.slick-slider .slick-dots li button:before {
+    font-size: 35px;
+    line-height: 20px;
+    width: 20px;
+    height: 20px;
+    content: "•";
+    text-align: center;
+    color: #FAEBEB;
+}
+.slick-slider .slick-dots li.slick-active button:before {
+    color: #833638;
+}
+div.slick-dotted.slick-slider {
+    margin-bottom: 0px;
+}
+
+/* Back TO TOP Button */
+#button {
+	bottom: 50px;
+	right: 30px;
+	transition: background-color 0.3s, opacity 0.5s, visibility 0.5s;
+	opacity: 0;
+}
+#button.show {
+	opacity: 1;
+	visibility: visible;
 }

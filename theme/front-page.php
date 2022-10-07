@@ -13,14 +13,16 @@ get_header();
 
 
 <!-- Slider Start -->
-<div class="slick_slider" data-slick='{"slidesToShow": 1, "slidesToScroll": 1, "arrows":false, "autoplay":true, "dots":true, "infinite":true, "speed":1000, "responsive":[{"breakpoint":992,"settings":{"slidesToShow": 1}},{"breakpoint":840,"settings":{"slidesToShow": 1}}]}'>
+<div class="slick_slider" data-slick='{"slidesToShow": 1, "slidesToScroll": 1, "arrows":false, "autoplay":true, "dots":true, "infinite":true, "speed":1000, "autoplaySpeed":10000, "responsive":[{"breakpoint":992,"settings":{"slidesToShow": 1}},{"breakpoint":840,"settings":{"slidesToShow": 1}}]}'>
     <!-- slide 1 -->
     <div class="relative">
-        <video class="absolute inset-0 object-cover top w-full h-full" src="http://zenith-precision.test/wp-content/themes/coding-and-marking/theme/video/FANUC%20Industrial%20Robots%20at%20AUDI.mp4" autoplay loop muted></video>
+        <video class="absolute inset-0 object-cover top w-full h-full" autoplay loop muted> 
+           <source src="https://leibinger-group.com/application/themes/leibinger/video/201124_LEIBINGER_Sealtronic_WebsiteHeader_WhiteBoxes_Loop.mp4">
+        </video>
         <div class="relative bg-gray-900 bg-opacity-50">
             <div class="cont py-16 md:px-24 lg:px-8 lg:py-28">
                 <div class="flex flex-col items-start justify-between">
-                    <div class="relative w-full  mb-12 xl:mb-0 xl:pr-16 xl:w-7/12 bg-black bg-opacity-40 p-16">
+                    <div class="relative w-full lg:w-7/12 bg-black bg-opacity-40 p-6 md:p-10 lg:p-16">
                         <h2 class="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-white sm:text-4xl sm:leading-none">
                         The quick, brown fox <br class="hidden md:block" />
                         jumps over a lazy dog
@@ -41,11 +43,13 @@ get_header();
     </div>
     <!-- slide 2 -->
     <div class="relative">
-        <video class="absolute inset-0 object-cover top w-full h-full" src="http://zenith-precision.test/wp-content/themes/coding-and-marking/theme/video/FANUC%20Industrial%20Robots%20at%20AUDI.mp4" autoplay loop muted></video>
+        <video class="absolute inset-0 object-cover top w-full h-full" autoplay loop muted>
+            <source src="http://zenith-precision.test/wp-content/themes/coding-and-marking/theme/video/FANUC%20Industrial%20Robots%20at%20AUDI.mp4">
+        </video>
         <div class="relative bg-gray-900 bg-opacity-50">
             <div class="cont py-16 md:px-24 lg:px-8 lg:py-28">
-                <div class="flex flex-col items-center justify-between">
-                    <div class="relative w-full  mb-12 xl:mb-0 xl:pr-16 xl:w-7/12 bg-black bg-opacity-40 p-16">
+                <div class="flex flex-col items-center md:items-center justify-between">
+                    <div class="relative w-full lg:w-7/12 bg-black bg-opacity-40 p-6 md:p-10 lg:p-16">
                         <h2 class="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-white sm:text-4xl sm:leading-none">
                         The quick, brown fox <br class="hidden md:block" />
                         jumps over a lazy dog
@@ -66,11 +70,13 @@ get_header();
     </div>
     <!-- slide 3 -->
     <div class="relative">
-        <video class="absolute inset-0 object-cover top w-full h-full" src="http://zenith-precision.test/wp-content/themes/coding-and-marking/theme/video/FANUC%20Industrial%20Robots%20at%20AUDI.mp4" autoplay loop muted></video>
+        <video class="absolute inset-0 object-cover top w-full h-full" autoplay loop muted>
+            <source src="http://zenith-precision.test/wp-content/themes/coding-and-marking/theme/video/FANUC%20Industrial%20Robots%20at%20AUDI.mp4">
+        </video>
         <div class="relative bg-gray-900 bg-opacity-50">
             <div class="cont py-16 md:px-24 lg:px-8 lg:py-28">
-                <div class="flex flex-col items-end justify-between">
-                    <div class="relative w-full  mb-12 xl:mb-0 xl:pr-16 xl:w-7/12 bg-black bg-opacity-40 p-16">
+                <div class="flex flex-col items-center md:items-end justify-between">
+                    <div class="relative w-full lg:w-7/12 bg-black bg-opacity-40 p-6 md:p-10 lg:p-16">
                         <h2 class="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-white sm:text-4xl sm:leading-none">
                         The quick, brown fox <br class="hidden md:block" />
                         jumps over a lazy dog
@@ -94,10 +100,10 @@ get_header();
 
 <!-- // SECTION 2 -->
 <section class="py-10">
-    <div class="cont flex flex-col justify-between py-16 md:grid grid-cols-2 gap-8">
+    <div class="cont flex flex-col justify-between py-16 lg:grid grid-cols-2 gap-8">
         <div class="flex flex-col justify-center gap-y-7">
             <div class="">
-                <h2 class="mb-6 text-4xl md:text-5xl capitalize font-bold font-head tracking-tight" style="line-height: 55px">
+                <h2 class="mb-6 text-4xl md:text-5xl capitalize font-bold font-head tracking-tight leading-[45px] md:leading-[55px]">
                     Manage Everything in Your Hand
                 </h2>
                 <p class="text-base text-gray md:text-lg font-body">
@@ -113,8 +119,8 @@ get_header();
                 </a>
             </div>
         </div>
-        <div class="slide-right flex justify-center items-center border border-1">
-            <img class="w-auto h-80" src="http://test.zenithprecision.com.ng/Images/Zenith_logo+.png" alt="">
+        <div class="slide-up flex justify-center items-center border border-1 p-5">
+            <img class="w-auto h-80 object-scale-down" src="http://test.zenithprecision.com.ng/Images/Zenith_logo+.png" alt="">
         </div>
     </div>
 </section>
@@ -124,7 +130,7 @@ get_header();
     <div class="cont py-16 text-white">
       <div class="grid gap-8 grid-cols-6 lg:grid-cols-7">
         <div class="col-span-6 lg:col-span-3 flex flex-col justify-center">
-            <h2 class="mb-6 text-4xl md:text-5xl capitalize font-bold font-head tracking-tight" style="line-height: 55px">
+            <h2 class="mb-6 text-4xl md:text-5xl capitalize font-bold font-head tracking-tight leading-[45px] md:leading-[55px]">
                 Manage Everything in Your Hand
             </h2>
             <p class="text-base text-gray md:text-lg font-body">
