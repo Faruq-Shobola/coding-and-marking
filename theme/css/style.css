@@ -112,7 +112,7 @@ nav li ul li a{
         /* color: #fff; */
         text-align: center;
         display: block;
-        /* padding: 20px 0; */
+        padding: 20px 0;
         -webkit-transition: all 0.3s ease-in-out;
         -moz-transition: all 0.3s ease-in-out;
         -ms-transition: all 0.3s ease-in-out;

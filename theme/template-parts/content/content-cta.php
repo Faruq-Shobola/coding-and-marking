@@ -9,11 +9,8 @@
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sem neque, molestie sit amet venenatis et, dignissim ut erat. Sed aliquet velit id dui eleifend, sed consequat odio sollicitudin.
                 </p> -->
                 <div class="flex items-center">
-                    <a href="/" aria-label="" class="button">
+                    <a href="<?php wp_upload_dir() ?>/appointment" aria-label="" class="button">
                     Get started for free
-                    <svg class="inline-block w-3 " fill="currentColor" viewBox="0 0 12 12">
-                        <path d="M9.707,5.293l-5-5A1,1,0,0,0,3.293,1.707L7.586,6,3.293,10.293a1,1,0,1,0,1.414,1.414l5-5A1,1,0,0,0,9.707,5.293Z"></path>
-                    </svg>
                     </a>
                 </div>
             </div>

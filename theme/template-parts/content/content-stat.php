@@ -4,22 +4,16 @@
         <div class="grid grid-cols-1 sm:grid-cols-2 gap-8 lg:grid-cols-4">
 
             <div class="relative md:col-span-2">
-                <video class="absolute inset-0 object-cover top w-full h-full" src="http://zenith-precision.test/wp-content/themes/coding-and-marking/theme/video/FANUC%20Industrial%20Robots%20at%20AUDI.mp4" autoplay loop muted></video>
+                <img class="absolute inset-0 object-cover top w-full h-full" src="https://test.zenithprecision.com.ng/Images/20973721_inkjet1_1600x1066.jpg">
                 <div class="relative bg-gray-900 bg-opacity-80 h-full">
                     <div class="flex flex-col items-center justify-between">
                         <div class="relative p-6 md:p-10 lg:p-6">
                             <h2 class="max-w-lg mb-3 font-sans text-3xl font-bold tracking-tight text-white sm:text-4xl leading-[45px] md:leading-[54px] sm:leading-none">
-                            We're proudly Nigerian
+                                We're proudly Nigerian
                             </h2>
                             <p class="mb-3 text-base text-gray-400 md:text-lg">
-                            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+                                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
                             </p>
-                            <a href="/" aria-label="" class="button-outline">
-                            Learn more
-                            <svg class="inline-block w-3 ml-2" fill="currentColor" viewBox="0 0 12 12">
-                                <path d="M9.707,5.293l-5-5A1,1,0,0,0,3.293,1.707L7.586,6,3.293,10.293a1,1,0,1,0,1.414,1.414l5-5A1,1,0,0,0,9.707,5.293Z"></path>
-                            </svg>
-                            </a>
                         </div>
                     </div>
                 </div>

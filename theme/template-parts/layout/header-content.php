@@ -63,8 +63,8 @@
 			)	
 		);
 		?>
-		<div class="navi w-full lg:w-2/12 flex items-center lg:justify-end px-2 lg:px-0">
-				<button class="block lg:inline-flex w-full button">Get Quote</button>	
+		<div class="navi w-full lg:w-auto flex items-center lg:justify-end px-2 lg:px-0">
+				<a href="<?php wp_upload_dir() ?>/appointment" class="block lg:inline-flex w-full button">book an appointment</a>	
 		</div>
 	</nav><!-- #site-navigation -->
 

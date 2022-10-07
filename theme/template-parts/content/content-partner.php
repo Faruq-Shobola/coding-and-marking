@@ -6,7 +6,7 @@
                     our partners in delivering peace of mind
                 </h2>
                 <div class="mt-5">
-                    <a class="inline-flex text-base pb-1 text-whine tracking-wider border-b-2 border-whine uppercase font-body" href="">Check out our product</a>
+                    <a href="<?php wp_upload_dir() ?>/products" class="inline-flex text-base pb-1 text-whine tracking-wider border-b-2 border-whine uppercase font-body" >Check out our product</a>
                 </div>
             </div> 
             <div  class="w-4/6 mx-auto lg:w-5/6 lg:col-span-3 justify-center items-center gap-x-10 partner_slider" style="display: flex;" data-slick='{"slidesToShow": 2, "slidesToScroll": 1, "arrows":true, "autoplay":true, "dots":false, "infinite":true, "speed":1000, "responsive":[{"breakpoint":992,"settings":{"slidesToShow": 2}},{"breakpoint":840,"settings":{"slidesToShow": 1}}]}'>

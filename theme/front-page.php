@@ -29,8 +29,8 @@ get_header();
                         <p class="max-w-xl mb-4 text-base text-gray-400 md:text-lg">
                             Leveraging technology and people to meet customers and stakeholders needs and expectations.
                         </p>
-                        <a href="/" aria-label="" class="button">
-                        Learn more
+                        <a href="<?php wp_upload_dir() ?>/services" aria-label="" class="button">
+                        get started
                         <svg class="inline-block w-3 ml-2" fill="currentColor" viewBox="0 0 12 12">
                             <path d="M9.707,5.293l-5-5A1,1,0,0,0,3.293,1.707L7.586,6,3.293,10.293a1,1,0,1,0,1.414,1.414l5-5A1,1,0,0,0,9.707,5.293Z"></path>
                         </svg>
@@ -55,8 +55,8 @@ get_header();
                         <p class="max-w-xl mb-4 text-base text-gray-400 md:text-lg">
                             Our product and services aid a hassle free production and distribution process which are effective to customers and buyerss with the aim of achieving stakeholder's goals and objectives
                         </p>
-                        <a href="/" aria-label="" class="button">
-                            Learn more
+                        <a href="<?php wp_upload_dir() ?>/services" aria-label="" class="button">
+                            get started
                         <svg class="inline-block w-3 ml-2" fill="currentColor" viewBox="0 0 12 12">
                             <path d="M9.707,5.293l-5-5A1,1,0,0,0,3.293,1.707L7.586,6,3.293,10.293a1,1,0,1,0,1.414,1.414l5-5A1,1,0,0,0,9.707,5.293Z"></path>
                         </svg>
@@ -81,8 +81,8 @@ get_header();
                         <p class="max-w-xl mb-4 text-base text-gray-400 md:text-lg">
                             Meet your customer's needs with us. Get great support and start to deliver high quality products.
                         </p>
-                        <a href="/" aria-label="" class="button">
-                        Learn more
+                        <a href="<?php wp_upload_dir() ?>/services" aria-label="" class="button">
+                        get started
                         <svg class="inline-block w-3 ml-2" fill="currentColor" viewBox="0 0 12 12">
                             <path d="M9.707,5.293l-5-5A1,1,0,0,0,3.293,1.707L7.586,6,3.293,10.293a1,1,0,1,0,1.414,1.414l5-5A1,1,0,0,0,9.707,5.293Z"></path>
                         </svg>
@@ -111,8 +111,8 @@ get_header();
                 </p>
             </div>
             <div class="flex items-center">
-                <a href="/" class="button">
-                    Get started
+                <a href="<?php wp_upload_dir() ?>/about-us" class="button">
+                    learn more
                 </a>
             </div>
         </div>
@@ -145,7 +145,7 @@ get_header();
                 <p class="mb-5">
                 Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque rem aperiam, eaque ipsa quae. Sed ut perspiciatis unde.
                 </p>
-                <a href="/" aria-label="" class="inline-flex items-center text-sm md:text-base font-semibold font-body transition-colors duration-200 text-purple hover:text-deep-purple-800">Learn more</a>
+                <a href="<?php wp_upload_dir() ?>/services" aria-label="" class="inline-flex items-center text-sm md:text-base font-semibold font-body transition-colors duration-200 text-purple hover:text-deep-purple-800">Learn more</a>
             </div>
         </div>
         <div class="col-span-6 md:col-span-3 lg:col-span-2 flex flex-col items-center gap-y-4 py-6 border-2 border-white transition duration-300 transform shadow-sm hover:-translate-y-2 hover:shadow md:text-center">
@@ -159,7 +159,7 @@ get_header();
                 <p class="mb-5">
                 Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque rem aperiam, eaque ipsa quae. Sed ut perspiciatis unde.
                 </p>
-                <a href="/" aria-label="" class="inline-flex items-center text-sm md:text-base font-semibold font-body transition-colors duration-200 text-purple hover:text-deep-purple-800">Learn more</a>
+                <a href="<?php wp_upload_dir() ?>/services" aria-label="" class="inline-flex items-center text-sm md:text-base font-semibold font-body transition-colors duration-200 text-purple hover:text-deep-purple-800">Learn more</a>
             </div>
         </div>
       </div>
