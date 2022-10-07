@@ -241,7 +241,7 @@ div.wpcf7 p label {
 }
 
 /* SLIDER */
-.partner_slider .slick-prev:before, .partner_slider .slick-next:before {
+.slick-slider .slick-prev:before, .slick-slider .slick-next:before {
     padding: 3px 5px;
     display: inline-block;
     border: 1px solid #833638;
@@ -250,44 +250,40 @@ div.wpcf7 p label {
     opacity: 1;
     color: #833638;
 }
-.partner_slider .slick-next {
+.slick-slider .slick-next {
     right: -25px;
 }
-.partner_slider .slick-prev {
+.slick-slider .slick-prev {
     left: -45px;
 }
 
-/* .partner_slider button{
-    margin: 0;
-    padding: 0;
-    background: none;
-    border: none;
-    border-radius: 0;
-    outline: none;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
+.slick-slider .slick-dots {
+    bottom: 20px;
 }
-.partner_slider .slide-arrow{
-    position: absolute;
-    top: 50%;
-    margin-top: -15px;
+.slick-slider .slick-dots li button:before {
+    font-size: 35px;
+    line-height: 20px;
+    width: 20px;
+    height: 20px;
+    content: "•";
+    text-align: center;
+    color: #FAEBEB;
 }
-.partner_slider .prev-arrow{
-    left: -40px;
-    width: 0;
-    height: 0;
-    border-left: 0 solid transparent;
-    border-right: 15px solid #113463;
-    border-top: 10px solid transparent;
-    border-bottom: 10px solid transparent;
-  }
-.partner_slider .next-arrow{
-    right: -40px;
-    width: 0;
-    height: 0;
-    border-right: 0 solid transparent;
-    border-left: 15px solid #113463;
-    border-top: 10px solid transparent;
-    border-bottom: 10px solid transparent;
-  } */
+.slick-slider .slick-dots li.slick-active button:before {
+    color: #833638;
+}
+div.slick-dotted.slick-slider {
+    margin-bottom: 0px;
+}
+
+/* Back TO TOP Button */
+#button {
+	bottom: 50px;
+	right: 30px;
+	transition: background-color 0.3s, opacity 0.5s, visibility 0.5s;
+	opacity: 0;
+}
+#button.show {
+	opacity: 1;
+	visibility: visible;
+}

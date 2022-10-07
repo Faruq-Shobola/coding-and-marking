@@ -46,11 +46,9 @@
             <!-------------- COLUMN 4 -------------->
 			<div class="relative md:col-span-6 lg:col-span-2 flex flex-col items-start md:items-start lg:items-end justify-end md:text-left lg:text-right gap-4">
 				<!-------------- BACK TO TOP -------------->
-				<div class="fixed bottom-14 right-10 md:bottom-20 md:right-12">
-					<div class="flex justify-center items-center h-12 w-12 bg-whine">
-						<i class="fas fa-angle-up text-3xl text-white"></i>
+					<div id="button" class="flex justify-center items-center z-10 fixed h-12 w-12 bg-whine hover:cursor-pointer">
+						<i class="fas fa-angle-up text-3xl text-white hover:pointer active:pointer"></i>
 					</div>
-				</div>
 				<!-------------- SOCIALS -------------->
 				<div class="flex justify-center items-center gap-4">
 					<div class="flex justify-center items-center h-8 w-8 bg-whine rounded-full">

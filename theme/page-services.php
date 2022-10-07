@@ -16,7 +16,7 @@ get_header();
     <div class="relative bg-gray-900 bg-opacity-50">
         <div class="cont py-16 md:px-24 lg:px-8 lg:py-28">
         <div class="flex flex-col items-center justify-between">
-            <div class="relative w-full mb-12 xl:mb-0 xl:pr-16 xl:w-7/12 bg-black bg-opacity-40 p-16 text-center">
+            <div class="relative w-full lg:w-7/12 bg-black bg-opacity-40 p-6 md:p-10 lg:p-16 text-center">
                 <h2 class="font-sans text-3xl font-bold tracking-tight text-white sm:text-4xl sm:leading-none capitalize">
                     our services
                 </h2>
