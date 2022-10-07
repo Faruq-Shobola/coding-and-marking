@@ -9,7 +9,7 @@
 
 ?>
 
-<header id="masthead" class="cont relative flex flex-col lg:flex-row items-center w-full">
+<header id="masthead" class="absolute max-w-screen-xl mx-auto relative flex flex-col lg:flex-row items-center w-full">
 
 	<!-- <div>
 		<?php
@@ -29,7 +29,7 @@
 			<p><?php //echo $coding_and_marking_description; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></p>
 		<?php //endif; ?>
 	</div> -->
-	<div class="w-full lg:w-2/12 h-16 lg:h-20 flex items-center justify-between">
+	<div class="px-4 w-full lg:w-2/12 h-16 lg:h-20 flex items-center justify-between">
 		<div class="logo">
 			<a href="<?php $uploads = wp_upload_dir();?>">
 				<?php 
@@ -40,14 +40,14 @@
 			</a>
 		</div>
 		
-		<div class="flex lg:hidden" onclick="toggleNav()">
+		<div class="flex lg:hidden">
 			<span class="flex justify-center items-center h-10 w-10 rounded-full ">
-				<i id="hamburger" class="fas fa-bars text-white text-2xl "></i>
+				<i class="fas fa-bars  text-2xl" id="hamburger"></i>
 			</span>
 		</div>
 	</div>
 
-	<nav id="site-navigation" aria-label="<?php esc_attr_e( 'Main Navigation', 'coding-and-marking' ); ?>" class="flex flex-col justify-center lg:flex lg:flex-row lg:justify-end lg:items-center w-full lg:w-8/12">
+	<nav id="site-navigation" aria-label="<?php esc_attr_e( 'Main Navigation', 'coding-and-marking' ); ?>" class="navi hidden flex-col justify-center lg:flex lg:flex-row lg:gap-6 lg:justify-end lg:items-center w-full pb-2 lg:pb-0">
 		<!-- <button aria-controls="primary-menu" aria-expanded="false"><?php //esc_html_e( 'Primary Menu', 'coding-and-marking' ); ?></button> -->
 
 		<?php
@@ -63,9 +63,9 @@
 			)	
 		);
 		?>
+		<div class="navi w-full lg:w-2/12 flex items-center lg:justify-end px-2 lg:px-0">
+				<button class="block lg:inline-flex w-full button">Get Quote</button>	
+		</div>
 	</nav><!-- #site-navigation -->
-	<div class="w-full lg:w-2/12 flex items-center lg:justify-end">
-			<button class="block lg:inline-flex w-full lg:w-auto button">Get Quote</button>	
-	</div>
 
 </header><!-- #masthead -->
