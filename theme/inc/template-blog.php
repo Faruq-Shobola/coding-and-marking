@@ -17,8 +17,8 @@
             <p class="mt-4 text-base text-gray">
                 <?php the_excerpt() ;?>
             </p>
-            <p class="mt-6 flex items-center justify-end">
-                <a href="<?php the_permalink();?>" class="text-wine text-sm font-semibold cursor-pointer">Continue reading</a>
+            <p class="mt-6 flex items-center justify-start">
+                <a href="<?php the_permalink();?>" class="text-wine text-sm font-medium cursor-pointer">continue reading</a>
             </p>
         </div>
     </div>

@@ -239,3 +239,19 @@ div.wpcf7 p label {
 .wpcf7 form.sent .wpcf7-response-output {
     color: #46b450;
 }
+
+/*----------------
+  Pagination Styling
+----------------*/
+.pagination .nav-links a,
+.pagination .nav-links .current {
+	background-color: #007e3d;
+	padding: 7px 12px;
+	color: white;
+	border-radius: 4px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.pagination .nav-links span.current {
+	background-color: #b7c932;
+}
