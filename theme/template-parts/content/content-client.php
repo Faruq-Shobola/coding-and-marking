@@ -2,13 +2,12 @@
   <div class="cont py-16">
     <div class="max-w-3xl mx-auto text-center">
       <h2 class="text-3xl font-bold text-gray-900 sm:text-4xl">
-        Trusted by eCommerce Businesses
+        Our Major Clients
       </h2>
 
       <p class="mt-4 text-gray-500 sm:text-xl">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione dolores
-        laborum labore provident impedit esse recusandae facere libero harum
-        sequi.
+        Over the years, In Nigeria and other African countries, we have enjoyed the patronage of a number of corporate clients in various sectors of the economy, 
+        Who have come to trust us and the quality of our products and services. Below is a list of corporate organizations. We have worked with:
       </p>
     </div>
 

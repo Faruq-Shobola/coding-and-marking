@@ -11,16 +11,15 @@ get_header();
 ?>
 
 <div class="relative">
-    <img src="" alt="">
     <img src="https://test.zenithprecision.com.ng/Images/20973721_inkjet1_1600x1066.jpg" class="absolute inset-0 object-cover top w-full h-full"  alt="">
     <div class="relative bg-gray-900 bg-opacity-50">
         <div class="cont py-16 md:px-24 lg:px-8 lg:py-28">
-        <div class="flex flex-col items-center justify-between">
-            <div class="relative w-full lg:w-7/12 bg-black bg-opacity-40 p-6 md:p-10 lg:p-16 text-center">
+        <div class="flex flex-col items-center lg:items-start justify-between">
+            <div class="relative w-full lg:w-7/12 bg-black bg-opacity-40 p-6 md:p-10 lg:p-16 text-center lg:text-left">
                 <h2 class="font-sans text-3xl font-bold tracking-tight text-white sm:text-4xl sm:leading-none capitalize">
                     our services
                 </h2>
-                <div class="w-32 h-1 bg-red-600 mx-auto my-6 "></div>
+                <div class="w-32 h-1 bg-red-600 mx-auto lg:mx-0 my-6 "></div>
                 <p class="mb-4 text-base text-gray-400 md:text-lg">
                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum, consequatur?
                 </p>
@@ -44,15 +43,15 @@ get_header();
                 <img src="https://leibinger-group.com/application/files/9616/0248/4059/cij-jet3up-detail1-freigestellt.png" alt="" class="object-cover w-full lg:absolute h-80 lg:h-full" />
             </div>
             <div class="flex flex-col justify-center p-8 bg-whine text-white lg:p-16 lg:pl-10 lg:w-1/2">
-                <h5 class="mb-3 text-3xl font-extrabold leading-none sm:text-4xl">
-                    Your new ideal style
-                </h5>
+                <h3 class="mb-3 text-3xl font-extrabold leading-none sm:text-4xl">
+                    Contract Coding
+                </h3>
                 <div class="w-32 h-1 bg-white my-6 "></div>
                 <p class="mb-5 text-white">
-                    <span class="font-bold">Lorem ipsum</span> dolor sit amet, consectetur adipiscing elit. Etiam sem neque, molestie sit amet venenatis et, dignissim ut erat. Sed aliquet velit id dui eleifend, sed consequat odio sollicitudin.
+                    Zenith precision Ltd is into selling continuous inkjet (CIJ) printers, the likes of Leibinger products (JET 2 and it's series, JET 3 and it's series), Solaris, Rynan (TIJ).
                 </p>
                 <p class="mb-5 text-white">
-                    <span class="font-bold">Lorem ipsum</span> dolor sit amet, consectetur adipiscing elit. Etiam sem neque, molestie sit amet venenatis et, dignissim ut erat. Sed aliquet velit id dui eleifend, sed consequat odio sollicitudin.
+                    Zenith precision Ltd is into selling continuous inkjet (CIJ) printers, the likes of Leibinger products (JET 2 and it's series, JET 3 and it's series), Solaris, Rynan (TIJ).
                 </p>
                 <div class="flex items-center">
                     <a href="/" aria-label="" class="button-outline">
@@ -72,12 +71,12 @@ get_header();
                 <img src="https://images.pexels.com/photos/3182812/pexels-photo-3182812.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260" alt="" class="object-cover w-full lg:absolute h-80 lg:h-full" />
             </div>
             <div class="flex flex-col justify-center p-8 bg-whine text-white lg:p-16 lg:pl-10 lg:w-1/2">
-                <h5 class="mb-3 text-3xl font-extrabold leading-none sm:text-4xl">
-                    Your new ideal style
-                </h5>
+                <h3 class="mb-3 text-3xl font-extrabold leading-none sm:text-4xl">
+                    Contract Coding/Outsourcing
+                </h3>
                 <div class="w-32 h-1 bg-white my-6 "></div>
                 <p class="mb-5 text-white">
-                    <span class="font-bold">Lorem ipsum</span> dolor sit amet, consectetur adipiscing elit. Etiam sem neque, molestie sit amet venenatis et, dignissim ut erat. Sed aliquet velit id dui eleifend, sed consequat odio sollicitudin.
+                    We also provide ranges of services like contract coding (Gold, Silver and Bronze Coding Solution), Equipment sales, Installations and maintainence of equipments.
                 </p>
                 <p class="mb-5 text-white">
                     <span class="font-bold">Lorem ipsum</span> dolor sit amet, consectetur adipiscing elit. Etiam sem neque, molestie sit amet venenatis et, dignissim ut erat. Sed aliquet velit id dui eleifend, sed consequat odio sollicitudin.
