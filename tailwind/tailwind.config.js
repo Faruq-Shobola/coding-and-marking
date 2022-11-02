@@ -14,7 +14,10 @@ module.exports = {
 	theme: {
 		// Extend the default Tailwind theme.
 		extend: {
-
+			colors: {
+				'whine': '#833638',
+				'cream': '#FAEBEB'
+			}
 		},
 	},
 	corePlugins: {

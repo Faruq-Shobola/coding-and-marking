@@ -1,4 +1,4 @@
-<?php
+<?//php
 /**
  * Template part for displaying the footer content
  *
@@ -11,42 +11,77 @@
 
 <footer id="colophon">
 
-	<?php if ( is_active_sidebar( 'sidebar-1' ) ) : ?>
-		<aside role="complementary" aria-label="<?php esc_attr_e( 'Footer', 'coding-and-marking' ); ?>">
-			<?php dynamic_sidebar( 'sidebar-1' ); ?>
-		</aside>
-	<?php endif; ?>
-
-	<?php if ( has_nav_menu( 'menu-2' ) ) : ?>
-		<nav aria-label="<?php esc_attr_e( 'Footer Menu', 'coding-and-marking' ); ?>">
-			<?php
-			wp_nav_menu(
-				array(
-					'theme_location' => 'menu-2',
-					'menu_class'     => 'footer-menu',
-					'depth'          => 1,
-				)
-			);
-			?>
-		</nav>
-	<?php endif; ?>
-
-	<div>
-		<?php
-		$coding_and_marking_blog_info = get_bloginfo( 'name' );
-		if ( ! empty( $coding_and_marking_blog_info ) ) :
-			?>
-			<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a>,
-			<?php
-		endif;
-
-		/* translators: 1: WordPress link, 2: WordPress. */
-		printf(
-			'<a href="%1$s">proudly powered by %2$s</a>.',
-			esc_url( __( 'https://wordpress.org/', 'coding-and-marking' ) ),
-			'WordPress'
-		);
-		?>
-	</div>
+<!-- FOOTER SECTION -->
+<section class="footer py-20 px-4 mt-auto">
+    <footer class="cont flex flex-col justify-center gap-20">
+        <!-------------- DETAILS -------------->
+        <div class="grid grid-col-1 md:grid-cols-6 gap-y-8">
+            <!-------------- COLUMN 1 -------------->
+			<div class="md:col-span-2">
+				<h3 class="text-2xl font-bold capitalize text-whine">
+				zenith precision
+				</h3>
+			
+				<p class="mt-4 text-sm text-gray">
+					Zenith precision ltd offers integrated coding and marking solutions focusing the manufacturing industry.
+				</p>                    
+			</div>
+            <!-------------- COLUMN 2 -------------->
+			<div class="md:col-span-2 lg:col-span-1 md:flex md:justify-center">
+				<ul class="text-sm text-gray">
+					<li class="capitalize pb-2"><a href="index.html">home</a></li>
+					<li class="capitalize pb-2"><a href="about.html">about us</a></li>
+					<li class="capitalize pb-2"><a href="services.html">services</a></li>
+					<li class="capitalize"><a href="contact.html">contact us</a></li>
+				</ul>
+			</div>
+            <!-------------- COLUMN 3 -------------->
+			<div class="md:col-span-2 lg:col-span-1 md:flex md:justify-center">
+				<ul class="text-sm text-gray">
+					<li class="capitalize pb-2"><a href="blog.html">blog</a></li>
+					<li class="capitalize pb-2"><a href="about.html#faq">FAQs</a></li>
+					<li class="capitalize"><a href="appointment.html">book an appointment</a></li>
+				</ul>
+			</div>
+            <!-------------- COLUMN 4 -------------->
+			<div class="relative md:col-span-6 lg:col-span-2 flex flex-col items-start md:items-start lg:items-end justify-end md:text-left lg:text-right gap-4">
+				<!-------------- BACK TO TOP -------------->
+					<div id="button" class="flex justify-center items-center z-10 fixed h-12 w-12 bg-whine hover:cursor-pointer">
+						<i class="fas fa-angle-up text-3xl text-white hover:pointer active:pointer"></i>
+					</div>
+				<!-------------- SOCIALS -------------->
+				<div class="flex justify-center items-center gap-4">
+					<div class="flex justify-center items-center h-8 w-8 bg-whine rounded-full">
+						<i class="fab fa-facebook-f text-white"></i>
+					</div>
+					<div class="flex justify-center items-center h-8 w-8 bg-whine rounded-full">
+						<i class="fab fa-twitter text-white"></i>
+					</div>
+					<div class="flex justify-center items-center h-8 w-8 bg-whine rounded-full">
+						<i class="fab fa-instagram text-white"></i>
+					</div>
+					<div class="flex justify-center items-center h-8 w-8 bg-whine rounded-full">
+						<a href="https://www.linkedin.com/company/zenith-precision-limited/"><i class="fab fa-linkedin-in text-white"></i></a>
+					</div>
+				</div>
+				<!-------------- GET IN TOUCH-------------->
+				<div class="heading">
+					<p class="text-sm text-gray">
+						Get in Touch
+					</p>
+					<a href="mailto:hi@zenithprecision.com.ng" class="text-sm text-whine">
+						hi@zenithprecision.com.ng
+					</a>
+				</div>
+			</div>
+        </div>  
+        <!-------------- COPYRIGHT - TERMS & CONDITION -------------->
+        <div class="copyright justify-self-start flex flex-wrap sm:flex-nowrap gap-x-6">
+            <p class="capitalize text-sm text-gray">copyright © 2021 zenith precision. all rights reserved.</p>
+        </div>
+            
+    </footer>
+</section>
+<!-- FOOTER SECTION END -->
 
 </footer><!-- #colophon -->
